@@ -53,12 +53,8 @@ const HomePage = () => {
         </video>
         <div className="hero-content text-center text-primary-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-            <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
+            <h1 className="mb-5 text-5xl font-bold">Harmony</h1>
+            <p className="mb-5">The power to create automated agriculture</p>
             <button className="btn btn-primary" onClick={navigateToDashboard}>
               Get Started
             </button>

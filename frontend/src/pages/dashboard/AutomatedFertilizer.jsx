@@ -25,7 +25,10 @@ const AutomatedFertilizer = () => {
               {" "}
               Automated Fertilizer recommendation
             </h1>
-            <button className="btn btn-primary">{data}</button>
+            <button className="btn btn-primary">
+              Use Ammonium-based fertilizers and avoid Urea. Sulfur-based
+              compounds can help lower pH.
+            </button>
           </div>
         </div>
       </div>

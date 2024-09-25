@@ -12,39 +12,21 @@ import CropRecommendationPage from "./pages/CropRecommendationPage";
 import CropYieldPredictionPage from "./pages/CropYieldPredictionPage";
 import DashboardPage from "./pages/DashboardPage";
 import EnvironmentImpactOfFoodProductionPage from "./pages/EnvironmentImpactOfFoodProductionPage";
+import FarmDesignerPage from "./pages/FarmDesignerPage";
 import FertilizersRecommendationPage from "./pages/FertilizersRecommendationPage";
 import PestDetectionPage from "./pages/PestDetectionPage";
 import PlantDiseaseDetectionPage from "./pages/PlantDiseaseDetectionPage";
 import PlantGrowthStagePage from "./pages/PlantGrowthStagePage";
-import FarmDesignerPage from "./pages/FarmDesignerPage";
 
-import AddProductPage from "./pages/AddProductPage.jsx";
-import BlogListPage from "./pages/BlogListPage.jsx";
-import BlogPostPage from "./pages/BlogPostPage.jsx";
-import BlogsPage from "./pages/BlogsPage.jsx";
-import CartPage from "./pages/CartPage.jsx";
-import CreatePostPage from "./pages/CreatePostPage.jsx";
-import HomePage from "./pages/HomePage.jsx";
-import LoginPage from "./pages/LoginPage.jsx";
-import OrderListPage from "./pages/OrderListPage.jsx";
-import PostListPage from "./pages/PostListPage.jsx";
-import PostsPage from "./pages/PostsPage.jsx";
-import ProductListPage from "./pages/ProductListPage.jsx";
-import PublishBlogPage from "./pages/PublishBlogPage.jsx";
-import RegistrationPage from "./pages/RegistrationPage.jsx";
-import ShopPage from "./pages/ShopPage.jsx";
-import UserDashboardPage from "./pages/UserDashboardPage.jsx";
-import YourOrderListPage from "./pages/YourOrderListPage.jsx";
-import Checkout from "./pages/checkout/Checkout.jsx";
-import ProductPage from "./pages/ProductPage.jsx";
-import AcceptOrder from "./pages/AcceptOrder.jsx";
-import ProfilePage from "./pages/ProfilePage.jsx";
 import AutomatedFarmingDashboardPage from "./pages/AutomatedFarmingDashboardPage.jsx";
+import BudgetPage from "./pages/BudgetPage.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
+import PHLevelsMonitoringInSoilPagejsx from "./pages/PHLevelsMonitoringInSoilPage.jsx";
+import RegistrationPage from "./pages/RegistrationPage.jsx";
 import SoilMoistureMonitoringPage from "./pages/SoilMoistureMonitoringPage.jsx";
 import TemperatureAndHumidityMonitorPage from "./pages/TemperatureAndHumidityMonitorPage.jsx";
-import PHLevelsMonitoringInSoilPagejsx from "./pages/PHLevelsMonitoringInSoilPage.jsx";
+import Checkout from "./pages/checkout/Checkout.jsx";
 import AutomatedFertilizer from "./pages/dashboard/AutomatedFertilizer.jsx";
-import BudgetPage from "./pages/BudgetPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -74,24 +56,8 @@ const router = createBrowserRouter(
 
       <Route path="/login" element={<LoginPage />} />
       <Route path="/registration" element={<RegistrationPage />} />
-      <Route path="/userdashboard" element={<UserDashboardPage />} />
-      <Route path="/addproduct" element={<AddProductPage />} />
-      <Route path="/shop" element={<ShopPage />} />
-      <Route path="/posts" element={<PostsPage />} />
-      <Route path="/blogs" element={<BlogsPage />} />
-      <Route path="/productlist" element={<ProductListPage />} />
-      <Route path="/cart" element={<CartPage />} />
       <Route path="/checkout" element={<Checkout />} />
-      <Route path="/publishBlog" element={<PublishBlogPage />} />
-      <Route path="/createpost" element={<CreatePostPage />} />
-      <Route path="/yourorder" element={<YourOrderListPage />} />
-      <Route path="/order" element={<OrderListPage />} />
-      <Route path="/blogList" element={<BlogListPage />} />
-      <Route path="/postlist" element={<PostListPage />} />
-      <Route path="/blogpostpage/:blogID" element={<BlogPostPage />} />
-      <Route path="/productpage/:productID" element={<ProductPage />} />
-      <Route path="/acceptorder" element={<AcceptOrder />} />
-      <Route path="/userprofile" element={<ProfilePage />} />
+
       <Route
         path="/automated-farming-dashboard"
         element={<AutomatedFarmingDashboardPage />}

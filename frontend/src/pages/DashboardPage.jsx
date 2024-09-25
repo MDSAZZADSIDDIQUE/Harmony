@@ -56,12 +56,6 @@ const DashboardPage = () => {
               </button>
               <button
                 className="btn btn-primary"
-                onClick={redirectToEnvironmentImpactOfFoodProduction}
-              >
-                Environment Impact of Food Production
-              </button>
-              <button
-                className="btn btn-primary"
                 onClick={redirectToPlantGrowthStage}
               >
                 Plant Growth Stage

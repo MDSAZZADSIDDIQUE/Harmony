@@ -26,7 +26,7 @@ const SoilMoistureMonitoringPage = () => {
               Soil moisture monitoring
             </h1>
             <p className="mb-5">Your Soil Moisture is</p>
-            <button className="btn btn-primary">{data}</button>
+            <button className="btn btn-primary">231</button>
           </div>
         </div>
       </div>

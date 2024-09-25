@@ -85,8 +85,8 @@ def plantGrowthStage():
     imagefile = request.files['image']
     filepath = "tmp/temp.jpg"
     imagefile.save(filepath)
-    i = image.load_img(filepath, target_size=(64, 64))
-    i = image.img_to_array(i)
+    i = tf.keras.utils.load_img(filepath, target_size=(64, 64))
+    i = tf.keras.utils.img_to_array(i)
     i = i.reshape(1, 64, 64, 3)
     p = model.predict(i)
     oi = plant_growth_stages[p.argmax()]
@@ -139,8 +139,8 @@ def pestDetection():
     imagefile = request.files['image']
     filepath = "tmp/temp.jpg"
     imagefile.save(filepath)
-    i = image.load_img(filepath, target_size=(224, 224))
-    i = image.img_to_array(i)
+    i = tf.keras.utils.load_img(filepath, target_size=(224, 224))
+    i = tf.keras.utils.img_to_array(i)
     i = i.reshape(1, 224, 224, 3)
     p = model.predict(i)
     oi = pest[p.argmax()]

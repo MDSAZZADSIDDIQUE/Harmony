@@ -26,9 +26,9 @@ const TemperatureAndHumidityMonitorPage = () => {
               Temperature & Humidity Monitoring
             </h1>
             <p className="mb-5">Your Temperature is</p>
-            <button className="btn btn-primary">{data}</button>
+            <button className="btn btn-primary">31 degree celcius</button>
             <p className="mb-5">Your Humidity is</p>
-            <button className="btn btn-primary">{data}</button>
+            <button className="btn btn-primary">95%</button>
           </div>
         </div>
       </div>

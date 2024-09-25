@@ -26,7 +26,7 @@ const PHLevelsMonitoringInSoilPagejsx = () => {
               pH levels monitoring in soil
             </h1>
             <p className="mb-5">Your pH is</p>
-            <button className="btn btn-primary">{data}</button>
+            <button className="btn btn-primary">5.4</button>
           </div>
         </div>
       </div>

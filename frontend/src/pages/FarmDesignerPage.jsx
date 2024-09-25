@@ -11,7 +11,7 @@ const FarmDesignerPage = () => {
     <>
       <SocketManager />
       <Canvas shadows camera={{ position: [8, 8, 8], fov: 30 }}>
-        <color attach="background" args={["#ececec"]} />
+        <color attach="background" args={["#87CEEB"]} />
         <ScrollControls pages={shopMode ? 4 : 0}>
           <Experience />
         </ScrollControls>
